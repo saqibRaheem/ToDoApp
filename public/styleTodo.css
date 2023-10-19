@@ -1,0 +1,109 @@
+/* body{
+    height: 100%;
+    background-color: #111;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: #fff;
+}
+.card{
+    background-color: #111;
+}
+.styling{
+    font-weight: 800;
+    color: lime;
+}
+.editbtn{
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    background: none;
+    outline: none;
+    color: lime;
+    border: none;
+  
+}
+.removebtn{
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    background: none;
+    outline: none;
+    color: #E00;
+    border: none;
+}
+.item{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    
+}
+.item-input{
+    background-color: none;
+    outline: rgb(237, 237, 243);
+    color: #fff;
+    border:white;
+    width: 200px;
+    font-size: 1.4rem;
+   border-bottom: white;
+} */
+
+body {
+    height: 100%;
+    background-color: #111;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500; /* Changed to a valid value */
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: #fff;
+}
+
+.card {
+    background-color: #111;
+    /* width: 100%; */
+    padding: 1rem; /* Added padding for better spacing */
+    border-radius: 10px; /* Added rounded corners for the card */
+}
+
+.styling {
+    font-weight: 800;
+    color: lime;
+}
+
+.editbtn,
+.removebtn {
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    background: none;
+    outline: none;
+    color: lime;
+    border: none;
+    cursor: pointer; /* Added cursor pointer for better usability */
+}
+
+.item {
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    /* border: 1px solid #fff; Added a border to separate items */
+    border-radius: 5px; /* Added rounded corners for items */
+}
+
+.item-input {
+    background-color: none;
+    outline: rgb(237, 237, 243);
+    color: #fff;
+    border: white;
+    width: 100%; /* Made the input full-width */
+    font-size: 1.4rem;
+    border-bottom: white;
+}
+
+@media (max-width: 768px) {
+    /* CSS for screens with a maximum width of 768px (e.g., tablets) */
+    .col-md-5 {
+        width: 100%; /* Make the column full-width on smaller screens */
+    }
+}
